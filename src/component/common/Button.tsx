@@ -1,10 +1,10 @@
 import React from "react";
 
-interface ButtonProps {
+type ButtonProps = {
   style?: React.CSSProperties;
   icon?: string;
   children: string;
-}
+};
 export const Button = (props: ButtonProps) => {
   return (
     <div
