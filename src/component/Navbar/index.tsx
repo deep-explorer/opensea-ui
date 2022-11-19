@@ -1,5 +1,5 @@
-import { NavItems } from "../Layout/NavItems";
-import { SearchInput } from "../Layout/SearchInput";
+import { NavItems } from "./NavItems";
+import { SearchInput } from "./SearchInput";
 import { Logo } from "./Logo";
 
 export const Navbar = () => {

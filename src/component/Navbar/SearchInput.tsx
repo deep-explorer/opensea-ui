@@ -1,7 +1,7 @@
 export const SearchInput = () => {
   return (
     <div className="h-[100%] w-[100%] flex items-center">
-      <div className="min-[1024px]:mr-8 min-[600px]: mr-4 leading-[26px] p-2 h-12 w-[100%] border-[2px] rounded-md border-gray-300">
+      <div className="min-[1024px]:mr-8 min-[600px]: mr-4 leading-[26px] p-2 h-12 w-[100%] border-[2px] rounded-md border-gray-300 max-[599px]:hidden ">
         <div className="cursor-text flex items-center font-[16px]">
           <svg
             className="h-6 w-6 text-gray-500"
