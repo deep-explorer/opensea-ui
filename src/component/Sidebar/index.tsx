@@ -8,7 +8,7 @@ import { Status } from "./Status";
 
 export const Sidebar = () => {
   return (
-    <div className="w-[340px]">
+    <div className="w-[340px] min-[1600px]:px-16 min-[1200px]:px-8 px-4">
       <Status />
       <Price />
       <Quantify />

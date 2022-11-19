@@ -5,7 +5,7 @@ import { SortByInput } from "./SortByInput";
 
 export const ShowingSettingPane = () => {
   return (
-    <div className="h-[66px]">
+    <div className="h-[66px] shadow-md min-[1600px]:px-16 min-[1200px]:px-8 px-4">
       <div className="max-[1023px]:hidden flex items-center w-[100%]">
         <SideBarSettingButton />
         <SortByInput />

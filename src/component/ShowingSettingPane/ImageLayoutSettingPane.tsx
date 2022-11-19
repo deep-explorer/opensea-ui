@@ -1,6 +1,6 @@
 export const ImageLayoutSettingPane = () => {
   return (
-    <div className="flex rounded-lg border-gray-300 border-2">
+    <div className="flex rounded-lg border-gray-300 border-2  cursor-pointer">
       <div className="h-12 p-[17px] flex items-center">
         <svg
           className="h-6 w-6 text-gray-500"

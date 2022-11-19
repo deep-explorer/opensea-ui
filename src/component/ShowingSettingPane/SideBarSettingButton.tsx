@@ -1,6 +1,6 @@
 export const SideBarSettingButton = () => {
   return (
-    <div className="p-3 w-12 h-12">
+    <div className="p-3 w-12 h-12  cursor-pointer">
       <svg
         className="h-6 w-6 text-gray-500"
         viewBox="0 0 24 24"
